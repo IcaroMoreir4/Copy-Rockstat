@@ -1,0 +1,80 @@
+/* Reset CSS básico */
+
+/* Remova a margem padrão e o preenchimento */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure, hr {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define o tamanho da fonte padrão e a cor para o corpo do documento */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Remove decoração de lista padrão */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remova o estilo padrão para h1-h6 */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  
+  /* Corrige a exibição de imagens como blocos em linha */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adiciona borda padrão ao elemento de tabela */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Corrige o estilo padrão para o elemento do botão */
+  button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+  }
+  
+  /* Limpa os estilos padrão para o elemento do botão */
+  button, input {
+    overflow: visible;
+  }
+  
+  /* Corrige o estilo padrão para elementos embutidos */
+  iframe, embed, object, video {
+    max-width: 100%;
+  }
+  
+  /* Corrige a aparência e o estilo do elemento do campo de formulário */
+  input, select, textarea {
+    appearance: none;
+    border: none;
+    outline: none;
+  }
+  
+  /* Adiciona box-sizing: border-box para todos os elementos */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remova a decoração de link padrão e define a cor */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Adicione cursor: pointer ao elemento de link */
+  a:hover {
+    cursor: pointer;
+  }
+  

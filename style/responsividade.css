@@ -1,0 +1,125 @@
+/* Estilos para desktops médios e grandes */
+@media only screen and (max-width: 1200px) {
+
+    .modulos button{
+      display: none;
+    }
+
+    header{
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .icon img{
+      margin-right: 60px;
+    }
+
+    .one-content p,
+    .one-content h1,
+    .one-content button,
+    .one-content .option {
+      margin-left: 20px;
+      margin-right: 10px;
+  }
+
+  .option span {
+    width: 60px;
+  }
+
+  .one-content button{
+    padding: 18px 45px;
+  }
+
+  .one-content h1{
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+
+  }
+
+  /* Estilos para tablets em modo paisagem e desktops pequenos */
+  @media only screen and (min-width: 771px) and (max-width: 1020px) {
+ 
+    header{
+      padding: 20px 50px;
+    }
+
+    .one-img{
+      width: 100%;
+    }
+
+    .one-img img{
+      width: 100%;
+    }
+
+    .option{
+      margin-top: 40px;
+    }
+
+    .one-content button{
+      text-wrap: nowrap;
+      padding: 15px 30px;
+    }
+
+    .option span {
+      width: 50px;
+    }
+
+    .one-content p,
+    .one-content h1,
+    .one-content button,
+    .one-content .option {
+      margin-left: 10px;
+  }
+  
+  .one-content p{
+    margin-top: 35px;
+  }
+
+  .aparece{
+    display: inline-block;
+  }
+
+  .link{
+    display: none;
+  }
+
+  .two{
+    padding: 20px 50px;
+  }
+
+  .two-list_item{
+    width: 280px;
+    margin-right: 10px;
+  }
+
+  .two-list_item h3{
+    font-size: 1.3rem;
+    line-height: 1.1;
+  }
+
+  .juntos{
+    flex-direction: column;
+  }
+
+  .three{
+    margin-top: 70px;
+    padding: 20px 50px;
+  }
+
+  footer{
+    padding: 20px 50px;
+  }
+
+  } 
+    
+    /* Estilos para tablets em modo retrato */
+    @media only screen and (min-width: 525px) and (max-width: 770px) {
+     
+      }
+  
+  
+    /* Estilos para dispositivos pequenos (Mobile) */
+    @media only screen and (max-width: 524px) {
+
+    }
